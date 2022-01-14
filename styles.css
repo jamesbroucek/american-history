@@ -6,30 +6,26 @@ body {
 text-align: center;
 color: #fb3640;
 font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 3em;
+font-size: 5em;
 border: solid #e2e2e2;
 margin: auto;
 }
 
-.container {
-    position: fixed;
-    top: 4em;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: auto;
-    display: inline;
-    justify-content: space-between;
+.grid {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 0 auto;
 }
 .div {
     display: inline-flex;
     background-color: #e2e2e2;
     border: solid #fb3640;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 15em;
+    width: 15em;
     padding: 0;
-    margin: 10px;
+    margin: 0 auto;
 }
 
 #abraham-lincoln {
